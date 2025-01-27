@@ -3,6 +3,8 @@ create database sistema_alquiler;
 
 use sistema_alquiler;
 
+CREATE TABLE usuario(id int  auto_increment primary key, user varchar(20), password varchar(80));
+
 CREATE TABLE casa (
     id INT AUTO_INCREMENT PRIMARY KEY, 
     nombre VARCHAR(50), 
